@@ -16,11 +16,13 @@ def sum_pairs(arr,k):
 		else:
 			output.add( (min(elems, target), (max(elems, target))))
 			
-	return '\n'.join(map(str,list(output)))
+	return '\n'.join(output)
 	
 
 	
 '''
 Given an integer array, output all the unique pairs that sum up to a 
-specific value k.
+specific value k. 
 '''
+
+
